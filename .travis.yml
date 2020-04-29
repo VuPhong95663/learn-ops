@@ -6,4 +6,4 @@ before_install:
   - docker build -t vuphong95663/learn-ops -f Dockerfile.dev .
 
 script:
-  - docker run vuphong95663/learn-ops npm run test -- --coverage
+  - docker run vuphong95663/learn-ops npm run test -- --coverage --watchAll=false
