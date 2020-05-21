@@ -11,8 +11,8 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "ap-southeast-1"
-  app: "learn-ops"
-  env: "LearnOps-env"
+  app: "ops-sample"
+  env: "OpsSample-env"
   bucket_name: "elasticbeanstalk-ap-southeast-1-170139420953"
   bucket_path: "learn-ops"
   on:
